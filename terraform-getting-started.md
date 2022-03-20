@@ -1,8 +1,15 @@
 # Getting Started with Terraform
 
-Terraform is the most popular langauge for defining and provisioning infrastructure as code (IaC).
+HashiCorp Terraform is an open-source infrastructure as code (IaC) software tool. IaC lets you manage and provision infrastructure through code rather than through a graphical user interface. This allows you to eliminate manual processes, iterate faster, and maintain consistency as your infrastructure presence grows. 
 
-To install Terraform, simply visit [Terraform.io](https://www.terraform.io/downloads.html) and download the compressed binary application executable file deliverable for your platform, machine or environment on which you like to run code and do development.
+# Installing Terraform
+To use Terraform, you will need to install it. You can install Terraform by visiting [Terraform.io](https://www.terraform.io/downloads.html). Find the appropriate package for your system and download it as a zip archive. After downloading Terraform, unzip the package. Finally, make sure the `terraform` binary is available on your `PATH`. This [HashiCorp tutorial](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started) contains instructions for adding binaries to your PATH based on your operating system. 
+
+#Verify the Installation
+To verify the installation worked, open a new terminal window and list the Terraform version. 
+```shell
+$ terraform -version
+```
 
 With Terraform installed, let's dive right into it and start creating some infrastructure.
 
